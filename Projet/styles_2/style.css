@@ -1,0 +1,127 @@
+/* style commun à toutes les pages */
+
+/* style général de la page */
+body {
+    /* annulation des marges */
+    margin: 0;
+    padding: 0;
+}
+
+/* suppresion du soulignement des liens */
+a {
+    text-decoration: none;
+}
+
+/* encadrements et couleurs des textes blancs sur fond rouge */
+#title, nav a {
+    /* encadrement */
+    border: solid white;
+    border-radius: 2px;
+    /* couleur */
+    color: white;
+}
+
+/* encadrements et couleurs des textes rouges sur fond blanc */
+p, img, footer, footer a, section{
+    /* encadrement */
+    border: solid #8A0D1E;
+    border-radius: 2px;
+    /* couleur */
+    color: #8A0D1E;
+}
+
+/* style de l'entête */
+header {
+    /* couleurs */
+    background-color: #8A0D1E;
+    color: white;
+    /* centrage des textes */
+    text-align: center;
+    /* forme */
+    height: 150px;
+    padding: 15px;
+    /* comportement au scrol */
+    position: sticky;
+    top: 0;
+}
+
+/* style du titre du site */
+#title{
+    /* taille */
+    font-size: 30pt;
+    padding: 5px;
+}
+
+/* stlyle des titres */
+h1 {
+    /* positionnement */
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    /* suppression des marges */
+    margin: 0;
+}
+
+/* style de la barre de navigation */
+nav {
+    /* positionnement */
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    /* barre de navigation verticale */
+    display: flex;
+    flex-direction: column;
+}
+
+/* style des liens de la barre de navigation */
+nav a {
+    /* marge intérieure */
+    padding: 5px;
+    transition: 0.5s;
+}
+
+nav a:hover, footer a:hover {
+    padding: 10px;
+}
+
+/* style du corps de la page */
+main {
+    /* positionnement vertical des éléments */
+    display: flex;
+    flex-direction: column;
+    /* centrage des éléments */
+    align-items: center;
+}
+
+/* style des paragraphes */
+p {
+    /* marges */
+    margin: 20px;
+    padding: 10px;
+}
+
+/* durée des animations de survol des images */
+img {
+    transition: 0.5s;
+}
+
+/* animations de survol des images */
+a:hover img {
+    /* changement de l'encadrement de l'image */
+    box-shadow: 0 0 10px #8A0D1E;
+}
+
+/* style du bas de page */
+footer {
+    /* taille */
+    height: 50px;
+    padding: 20px;
+}
+
+/* style des liens de bas de page */
+footer a, select {
+    /* marges */
+    margin: 10px;
+    padding: 5px;
+    transition: 0.5s;
+}

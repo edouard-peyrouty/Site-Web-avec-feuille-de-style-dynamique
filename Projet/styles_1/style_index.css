@@ -1,0 +1,30 @@
+/* style particulier à la page d'accueil */
+
+/* positionnement des liens vers les autres pages du site */ 
+div {
+    /* centrage des textes */
+    text-align: center;
+    /* positionnement horizontal des liens */
+    display: flex;
+}
+
+/* style des liens vers les autres pages du site */
+div a {
+    /* positionnment des textes sous les images */
+    display: flex;
+    flex-direction: column;
+    /* marge entre les images et les textes */
+    margin: 50px;
+    /* forme et couleurs */
+    text-decoration: none;
+    color: #EEE6D8;
+    font-size: 15pt;
+    /* durée de l'animation de survol des liens vers les autres pages du site*/
+    transition: 1s;
+}
+
+/* animation de survol des liens vers les autres pages du site*/
+div a:hover {
+    /* changement de couleur au survol */
+    color: #B67332;
+}

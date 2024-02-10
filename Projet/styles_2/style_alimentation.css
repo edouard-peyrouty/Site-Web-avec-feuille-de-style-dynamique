@@ -1,0 +1,50 @@
+/* style spécifique à la page alimentation */
+
+/* style des sections */
+section {
+    /* positionnement horizontal des éléments */
+    display: flex;
+    /* marges */
+    margin: 15px;
+    padding: 15px;
+}
+
+/* style des blocs "schéma balance énergétique et paragraphe associé" */
+div {
+    /* positionnement vertical des éléments */
+    display: flex;
+    flex-direction: column;
+    /* centrage des éléments */
+    align-items: center;
+}
+
+/* style des tableaux */
+table {
+    /* centrage des textes */
+    text-align: center;
+    /* marges */
+    margin: 20px;
+}
+
+/* suppression de la ligne d'entête */
+th {
+    display: none;
+}
+
+/* style des cases du tableaux */
+td {
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* couleurs des cases de la colone des macronutriments */
+.macro {
+    background-color: #8A0D1E;
+    color: white;
+}
+
+/* couleurs différentes pour las cases de la colone des micronutriments */
+.micro {
+    color: #8A0D1E;
+    border: #8A0D1E solid;
+}

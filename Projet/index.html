@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Muscle and Healthiness</title>
+        <!-- Feuille de style commune à tout le site-->
+        <link rel="stylesheet" href="styles_1/style.css" type="text/css">
+        <!-- Feuille de style spécifique à cette page -->
+        <link rel="stylesheet" href="styles_1/style_index.css" type="text/css">
+        <!-- sript servant au changment de feuilles de style -->
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <!-- Entête de la page -->
+        <header>
+            <!-- Logo de la page -->
+            <a href="index.html" id="title">Muscle and Healthiness</a>
+            <h1>Accueil</h1>
+            <!-- Menu de navigation -->
+            <nav>
+                <a href="index.html">Accueil</a>
+                |
+                <a href="pages/musculation.html">Musculation</a>
+                |
+                <a href="pages/alimentation.html">Alimentation</a>
+            </nav>
+        </header>
+        <!-- Corps de la page -->
+        <main>
+            <!-- Paragraphe d'intro -->
+            <p>
+                Ce site a pour but de vous informer des bases de la musculation, de l'alimentation et de quelques éléments de santé. 
+                Les informations que vous y trouverez sont des connaissances scientifiques qui ont été vulgarisés par des personnes 
+                compétentes dans leur champs de connaissances. Je n'ai fait que les synthétiser pour vous les relayer.
+            </p>
+            <!-- Liens vers les autres pages du site -->
+            <div>
+                <a href="pages/musculation.html">
+                    <img src="images/musculation.jpg" alt="musculation">
+                    La musculation
+                </a>
+                <a href="pages/alimentation.html">
+                    <img src="images/alimentation.jpg" alt="alimentation">
+                    L'alimentation
+                </a>
+            </div>
+        </main>
+        <!-- Bas de page -->
+        <footer>
+            <label for="choixCSS">Choix du style</label>
+            <select id="choixCSS" onchange="changeCSS('style_index.css')">
+                <option value="styles_1/">style 1</option>
+                <option value="styles_2/">style 2</option>
+            </select>
+        </footer>
+    </body>
+</html>

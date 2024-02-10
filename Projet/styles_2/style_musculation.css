@@ -1,0 +1,16 @@
+/* style spécifique à la page musculation */
+
+/* style de la section sur les bases de la musculation */
+#bases_muscu {
+    /* positionnement horizontal des éléments */
+    display: flex;
+    /* marges */
+    margin: 15px;
+    padding: 10px;
+}
+
+/* marges des sous-sections de la section sur les bases de la msuculation */
+.sous_section {
+    margin: 5px;
+    padding: 10px;
+}

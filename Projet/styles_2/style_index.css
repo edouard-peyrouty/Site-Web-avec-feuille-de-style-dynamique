@@ -1,0 +1,20 @@
+/* style spécifique à la page d'accueil */
+
+/* positionnment horizontal des liens vers les autres pages su site */
+div {
+    display: flex;
+}
+
+/* style des liens vers les autres pages du site */
+div a {
+    /* positionnement des textes au-dessus des images */
+    display: flex;
+    flex-direction: column-reverse;
+    /* marges */
+    margin: 15px;
+    /* centrage du texte */
+    text-align: center;
+    /* taille et couleur du texte */
+    font-size: 30px;
+    color: #8A0D1E;
+}

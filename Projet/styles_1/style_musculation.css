@@ -1,0 +1,41 @@
+/* style particulier à la page musculation */
+
+/* dimensionnement de la section sur le sbases de la musculation */
+#bases_muscu {
+    width: 80%;
+}
+
+/* style des sous-sections de la base de la musculation */
+.sous_section {
+    /* positionnement vertical des élément des sous-sections */
+    display: flex;
+    flex-direction: column;
+    /* centrage des éléments des sous-sections */
+    align-items: center;
+    /* encadrement */
+    box-shadow: 0 0 20px #B67332;
+    padding-bottom: 300px;
+    border-radius: 5px;
+    margin-bottom: 60px;
+    /* Changement du type de position pour que les vidéos se positionnent par rapport à cette boîte */
+    position: relative;
+}
+
+/* Positionnement des vidéos intégrées à la page */
+iframe {
+    position: absolute;
+    bottom: 100px;
+}
+
+/* Décalage horizontal des vidéos de la première sous-section */
+#fundamentals {
+    left: 100px;
+}
+#deload {
+    right: 100px;
+}
+
+/* couleur des liens de la page musculation */
+a {
+    color: #794b1c;
+}

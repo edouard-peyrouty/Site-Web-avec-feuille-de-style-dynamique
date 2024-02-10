@@ -1,0 +1,29 @@
+/* style particulier à la page alimentation*/
+
+/* image de fond de l'entête */
+header{
+    background-image: url(../images/background_alimentation.jpg);
+}
+
+/* positionnment des éléments de la boîte "image balance calorique et paragraphe associé*/
+div {
+    /* centrages */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* couleur des paragraphes confonfue avec la couleur de fond */
+div p {
+    color: #EEE6D8;
+    box-shadow: 0 0 10px #EEE6D8;
+    /* durée de l'animation de survol*/
+    transition: 0.5s;
+}
+
+/* appariton des paragraphes au survol */
+div:hover p {
+    /* changement de couleur */
+    color: #B67332;
+    box-shadow: 0 0 10px #B67332;
+}

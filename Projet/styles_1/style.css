@@ -1,0 +1,149 @@
+/* style commun à tout le site */
+
+/* Style général de la page */
+body {
+    /* couleurs */
+    background-color: #EEE6D8;
+    color: #B67332;
+    /* annulation des marges */
+    padding: 0;
+    margin: 0;
+    /* police d'écriture */
+    font-family: "Trebuchet MS";
+}
+
+/* Style de l'entête */
+header{
+    /* Image de fond */
+    background-image: url(../images/background_musculation.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    /* hauteur */
+    min-height: 300px;
+    /* positionement des éléments de l'entête */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* style du titre "Muscle&Healthiness" */
+#title {
+    /* couleurs */
+    background-color: #EEE6D8;
+    color: #B67332;
+    border: solid #B67332 3px;
+    /* forme */
+    text-decoration: none;
+    font-size: 30pt;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Taille des différents niveaux de titres */
+h1 {
+    font-size: 25pt;
+    color: #EEE6D8;
+}
+h2 {
+    font-size: 20pt;
+}
+h3 {
+    font-size: 17pt;
+}
+
+/* style de la barre de navigation */
+nav{
+    /* couleurs */
+    background-color: #B67332;
+    color: #EEE6D8;
+    /* encadrement */
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* style des liens de la barre de navigation et du bas de page */
+nav a , footer label{ 
+    /* couleurs et forme */
+    color: #EEE6D8;
+    margin: 15px;
+    text-decoration: none;
+    /* durer de l'animation de survol */
+    transition: 0.5s;
+}
+
+/* animation de survol des liens de la berre de navigation et du bas de page */
+nav a:hover, footer a:hover{
+    /* changement de la taille et des couleur au survol */
+    font-size: 15pt;
+    color: white;
+}
+
+/* style du corps de la page */
+main {
+    /* positionement vertical des éléments du main */
+    display: flex;
+    flex-direction: column;
+    /* centrage des éléments du main */
+    align-items: center;
+}
+
+/* style des paragraphes */
+p {
+    /* taille */
+    width: 75%;
+    padding: 10px;
+    /* encadrement */
+    border-radius: 5px;
+    box-shadow: 0 0 10px #B67332;
+    /* traitement de texte */
+    text-align: center;
+}
+
+/* Style des images et vidéos intégrées au site */
+img, iframe {
+    /* encadrement */
+    border-radius: 5px;
+    box-shadow: 0 0 20px black;
+    margin-bottom: 10px;
+    /* durée de l'animation de survol */
+    transition: 0.5s;
+}
+
+/* animation de survol des images et vidéos intégrées au site */
+img:hover, iframe:hover {
+    /* changement de la couleur de l'encadrement au survol */ 
+    box-shadow: 0 0 30px #B67332;
+}
+
+/* style des tableaux */
+table {
+    /* absence de marges entre les cases*/
+    border-collapse: collapse;
+    /* encadrement */
+    box-shadow: 0 0 10px #B67332;
+    margin: 50px;
+    /* centrage des textes */
+    text-align: center;
+}
+
+/* style des cases des tableaux */
+td,th{
+    /* encadrement */
+    border: #B67332 solid;
+    /* marge intérieure */
+    padding: 15px;
+}
+
+/* style du bas de page */
+footer {
+    /* couleur */
+    background-color: #B67332;
+    /* taille */
+    height: 50px;
+    /* centrage des liens */
+    display: flex;
+    justify-content: center;
+}

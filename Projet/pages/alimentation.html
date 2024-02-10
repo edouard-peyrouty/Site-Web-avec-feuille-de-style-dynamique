@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Muscle and Healthiness - Alimentation</title>
+        <!-- Feuille de style commune à tout le site-->
+        <link rel="stylesheet" href="../styles_1/style.css" type="text/css">
+        <!-- Feuille de style spécifique à cette page -->
+        <link rel="stylesheet" href="../styles_1/style_alimentation.css" type="text/css">
+        <!-- sript servant au changment de feuilles de style -->
+        <script src="../script.js"></script>
+    </head>
+    <body>
+        <!-- Entête de la page -->
+        <header>
+            <!-- Logo de la page -->
+            <a href="../index.html" id="title">Muscle and Healthiness</a>
+            <h1>Alimentation</h1>
+            <!-- Menu de navigation -->
+            <nav>
+                <a href="../index.html">Accueil</a>
+                |
+                <a href="musculation.html">Musculation</a>
+                |
+                <a href="alimentation.html">Alimentation</a>
+            </nav>
+        </header>
+        <!-- Corps de la page -->
+        <main>
+            <!-- paragraphe d'intro -->
+            <p>
+                Lorsqu'on fait de la musculation l'alimentation est primordiale, c'est elle qui apporte l'énergie nécessaire à l'entrainement et les nutriments 
+                nécessaires à la prise de muscles mais c'est aussi elle qui détermine la prise ou perte de gras.
+            </p>
+            <!-- section balance calorique -->
+            <section>
+                <h2>La balance calorique</h2>
+                <div>
+                    <img src="../images/deficit_calorique.png" alt="schéma du déficit calorique">
+                    <p>Lorsque l'on consomme moins de calories que ce que l'on dépense on perd du poids, on parle de déficit calorique.</p>
+                </div>
+                <div>
+                    <img src="../images/maintien_calorique.png" alt="schéma du maintien calorique">
+                    <p>Lorsque l'on consomme autant de calories que ce que l'on consomme, notre poids reste le même, on parle de maintien calorique.</p>
+                </div>
+                <div>
+                    <img src="../images/surplus_calorique.png" alt="schéma du surplus calorique"> 
+                    <p>Lorsque l'on consomme plus de calories que ce que l'on consomme, on prend du poids, on parle de surplus calorique.</p>
+                </div>
+            </section>
+            <!-- tableau sur les nutriments -->
+            <h2>Les Nutriments</h2>
+            <table>
+                <!--Titre-->
+                <tr>
+                    <th colspan="6">Nutriments</th>
+                </tr>
+                <!--Catégories de nutriments-->
+                <tr>
+                    <td colspan="3" class="macro">Macronutriments</td>
+                    <td colspan="3" class="micro">Micronutriments</td>
+                </tr>
+                <!--description-->
+                <tr>
+                    <td colspan="3" class="macro">Ils apportent au corps l'énergie dont il a besoin.</td>
+                    <td colspan="3" class="micro">Indipensables au bon fonctionnement du corps bien que ne contenant aucune énergie.</td>
+                </tr>
+                <tr>
+                    <!-- catégories de macronutriments -->
+                    <td class="macro">Protéines</td>
+                    <td class="macro">Glucides</td>
+                    <td class="macro">Lipides</td>
+                    <!-- catégories de micronutriments -->
+                    <td class="micro">Vitamines</td>
+                    <td class="micro">Minéraux</td>
+                    <td class="micro">Oligoéléments</td>
+                </tr>
+                <!-- description -->
+                <tr>
+                    <td class="macro">Indipensables à la fabrication de muscle</td> 
+                    <td class="macro">Principale source d'énergie du corps</td>
+                    <td class="macro">Utilisés par le corps pour le stockage de l'énergie</td>
+                    <td class="micro">Joue un rôle dans les réactions métaboliques</td>
+                    <td class="micro">Indispensables à la vie des cellules</td>
+                    <td class="micro">Interviennent dans l'activité des hormones</td>
+                </tr>
+            </table>
+        </main>
+        <!-- Bas de page -->
+        <footer>
+            <label for="choixCSS">Choix du style</label>
+            <select id="choixCSS" onchange="changeCSS('style_alimentation.css')">
+                <option value="../styles_1/">style 1</option>
+                <option value="../styles_2/">style 2</option>
+            </select>
+        </footer>
+    </body>
+</html>
